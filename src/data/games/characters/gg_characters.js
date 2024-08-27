@@ -217,6 +217,21 @@ export const gg_characters = [
     moreName: "Dustloop",
   },
   // -------------------------------------------------------------------------
+  // Sol Badguy
+  // -------------------------------------------------------------------------
+  {
+    name: "Bonding",
+    input: "63214H",
+    type: "character move",
+    regex: /keygrab|bonding/,
+    character: "A.B.A.",
+    description:
+      "Often called 'Keygrab'. It's a grab that make A.B.A. enter or leave Goku Moroha Mode.",
+    img: "",
+    moreLink: "https://www.dustloop.com/w/GGACR/A.B.A#Bonding",
+    moreName: "Dustloop",
+  },
+  // -------------------------------------------------------------------------
   // mechs
   // -------------------------------------------------------------------------
   {

@@ -1,7 +1,7 @@
 import {
   blazblue,
   followUp,
-  guiltyGear,
+  // guiltyGear,
   kingOfFighters,
   moveInputs,
   persona,
@@ -45,7 +45,7 @@ export const texts = [
       specialInputs,
       techPatterns,
       wrapMechs,
-      guiltyGear,
+      // guiltyGear,
       streetFighter,
       kingOfFighters,
       blazblue,

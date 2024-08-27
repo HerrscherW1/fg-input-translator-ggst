@@ -13,8 +13,9 @@ import { Combo, Input, Wrapper } from "../components/index";
 import {
   blazblue,
   followUp,
-  guiltyGear,
-  kingOfFighters,
+  // guiltyGear,
+  sol_badguy,
+  kingOfFighters, 
   moveInputs,
   persona,
   specialInputs,
@@ -38,12 +39,13 @@ export const InputProvider = ({ children }) => {
   });
   const [chroma, setChroma] = useState(false);
   const [gameList] = useState([
-    guiltyGear,
+    // guiltyGear,
     streetFighter,
     kingOfFighters,
     blazblue,
     persona,
     themsFightinHerds,
+    sol_badguy,
   ]);
 
   const [gameInputs, setGameInputs] = useState(() => {
@@ -59,7 +61,7 @@ export const InputProvider = ({ children }) => {
       return savedGameInputs[0];
     }
     //
-    else return guiltyGear;
+    else return sol_badguy;
   });
 
   const allInputs = useMemo(
