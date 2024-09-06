@@ -169,7 +169,7 @@ const sol_badguy = [
     name: "Bandit Revolver1",
     input: "236K",
     type: "move",
-    regex: /\b236k|BR1|br1|236K\b/,
+    regex: /\b(236k|BR1|br1|236K)\b/,
     description:
         "First hit of Bandit Revolver",
         img: (
@@ -185,7 +185,7 @@ const sol_badguy = [
     name: "Bandit Revolver2",
     input: "236KK",
     type: "move",
-    regex: /\bbr2|BR2|236kk|236KK\b/,
+    regex: /\b(br2|BR2|236kk|236KK)\b/,
     description:
         "Second hit of Bandit Revolver",
         img: (
@@ -202,7 +202,7 @@ const sol_badguy = [
     name: "Bandit Revolver",
     input: "236KK",
     type: "move",
-    regex: /\bbr|BR|236kk|236KK\b/i,
+    regex: /\b(br|BR|236kk|236KK)\b/i,
     description:
         "Full Bandit Revolver",
         img: (
@@ -219,7 +219,7 @@ const sol_badguy = [
     name: "Gun Flame",
     input: "236P",
     type: "move",
-    regex: /\bgf|GF|236p|236P\b/i,
+    regex: /\b(gf|GF|236p|236P)\b/i,
     description:
         "Gun Flame",
         img: (
@@ -235,7 +235,7 @@ const sol_badguy = [
     name: "Gun Flame (Feint)",
     input: "214P",
     type: "move",
-    regex: /\bgff|GFF|214p|214P\b/i,
+    regex: /\b(gff|GFF|214p|214P)\b/i,
     description:
         "Gun Flame (Feint)",
         img: (
@@ -252,7 +252,7 @@ const sol_badguy = [
     name: "Volcanic Viper",
     input: "623S",
     type: "move",
-    regex: /\bvv|VV|623S|623s\b/i,
+    regex: /\b(vv|VV|623S|623s)\b/i,
     description:
         "Volcanic Viper",
         img: (
@@ -268,7 +268,7 @@ const sol_badguy = [
     name: "Heavy Volcanic Viper",
     input: "623H",
     type: "move",
-    regex: /\bhvv|HVV|623H|623h\b/i,
+    regex: /\b(hvv|HVV|623H|623h)\b/i,
     description:
         "Heavy Volcanic Viper",
         img: (
@@ -284,7 +284,7 @@ const sol_badguy = [
     name: "Bandit Bringer",
     input: "214K",
     type: "move",
-    regex: /\bbb|BB|214k|214K\b/i,
+    regex: /\b(bb|BB|214k|214K)\b/i,
     description:
         "Bandit Bringer",
         img: (
@@ -300,7 +300,7 @@ const sol_badguy = [
     name: "Wild Throw",
     input: "623K",
     type: "move",
-    regex: /\bwt|WT|623K|623k\b/i,
+    regex: /\b(wt|WT|623K|623k)\b/i,
     description:
         "Wild Throw",
         img: (
@@ -316,7 +316,7 @@ const sol_badguy = [
       name: "Night Raid Vortex",
     input: "214S",
     type: "move",
-    regex: /\bnrv|NRV|214S|214s\b/i,
+    regex: /\b(nrv|NRV|214S|214s)\b/i,
     description:
         "Night Raid Vortex",
         img: (
@@ -332,7 +332,7 @@ const sol_badguy = [
       name: "Night Raid Vortex",
     input: "214S",
     type: "move",
-    regex: /\bnrv|NRV|214S|214s\b/i,
+    regex: /\b(nrv|NRV|214S|214s)\b/i,
     description:
         "Night Raid Vortex",
         img: (
