@@ -25,11 +25,11 @@ export { ReactComponent as PurpleRomanCancel } from "../images/inputs/MechPurple
 export { ReactComponent as RomanCancel } from "../images/inputs/MechRomanCancel.svg";
 export { ReactComponent as YellowRomanCancel } from "../images/inputs/MechYellowRomanCancel.svg";
 export { ReactComponent as Pretzel } from "../images/inputs/Motion1632143.svg";
-export { ReactComponent as QuarterCircle } from "../images/inputs/Motion236.svg";
-export { ReactComponent as HalfCircle } from "../images/inputs/Motion41236.svg";
+export { default as QuarterCircle } from "./png/motion236";
+export { default as HalfCircle } from "./png/motion41236";
 export { ReactComponent as FullCircle } from "../images/inputs/Motion41236987.svg";
-export { ReactComponent as Neutral } from "../images/inputs/Motion5.svg";
-export { ReactComponent as Foward } from "../images/inputs/Motion6.svg";
+export { default as Neutral } from "./png/motion5";
+export { default as Forward } from "./png/motion6";
 export { ReactComponent as DragonPunch } from "../images/inputs/Motion623.svg";
 export { ReactComponent as Dash } from "../images/inputs/Motion66.svg";
 export { ReactComponent as PersonaA } from "../images/inputs/Persona_ActionA.svg";
