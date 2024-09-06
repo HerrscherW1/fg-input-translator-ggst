@@ -1,4 +1,4 @@
-import { Foward, Neutral } from "./index";
+import { Forward, Neutral } from "./index";
 
 export const moveInputs = [
   {
@@ -15,16 +15,16 @@ export const moveInputs = [
     type: "movement",
     regex: /1|db/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(-45deg) scaleX(-1)" },
   },
   {
-    name: "Down Foward",
+    name: "Down Forward",
     input: [3, "df"],
     type: "movement",
     regex: /3|df/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(45deg)" },
   },
   {
@@ -33,16 +33,16 @@ export const moveInputs = [
     type: "movement",
     regex: /7|ub/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(45deg) scaleX(-1)" },
   },
   {
-    name: "Up Foward",
+    name: "Up Fd",
     input: [9, "uf"],
     type: "movement",
     regex: /9|uf/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(-45deg)" },
   },
   {
@@ -51,7 +51,7 @@ export const moveInputs = [
     type: "movement",
     regex: /2|d/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(90deg)" },
   },
 
@@ -61,7 +61,7 @@ export const moveInputs = [
     type: "movement",
     regex: /4|b/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "scaleX(-1)" },
   },
   {
@@ -74,12 +74,12 @@ export const moveInputs = [
     style: "",
   },
   {
-    name: "Foward",
+    name: "Forward",
     input: [6, "f"],
     type: "movement",
     regex: /6|f/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: "",
   },
 
@@ -89,7 +89,7 @@ export const moveInputs = [
     type: "movement",
     regex: /8|u/,
     description: "",
-    img: <Foward />,
+    img: <Forward />,
     style: { transform: "rotate(-90deg)" },
   },
 ];

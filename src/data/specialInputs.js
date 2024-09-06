@@ -33,14 +33,14 @@ export const specialInputs = [
     type: "special",
     regex: /3412361/,
     description:
-      "Down-foward, followed by half circle foward, followed by down-back.",
+      "Down-Forward, followed by half circle Forward, followed by down-back.",
     img: <Pretzel />,
     moreLink: "https://glossary.infil.net/?t=Pretzel%20Motion",
     moreName: "Glossary",
     style: { transform: "scaleX(-1)" },
   },
   {
-    name: "360 / Full Circle Foward",
+    name: "360 / Full Circle Forward",
     input: [41236987, 4268],
     type: "special",
     regex: /41236987|4268/,
@@ -64,7 +64,7 @@ export const specialInputs = [
     style: { transform: "scaleX(-1)" },
   },
   {
-    name: "Half Circle Foward",
+    name: "Half Circle Forward",
     input: [41236, 426, "hcf"],
     type: "special",
     regex: /41236|426|hcf/,
@@ -86,7 +86,7 @@ export const specialInputs = [
     style: { transform: "scaleX(-1)" },
   },
   {
-    name: "Quarter Circle Foward",
+    name: "Quarter Circle Forward",
     input: [236, "qcf"],
     type: "special",
     regex: /236|qcf/,
@@ -152,7 +152,7 @@ export const specialInputs = [
     style: { transform: "rotate(90deg)" },
   },
   {
-    name: "Quarter Circle Up Foward",
+    name: "Quarter Circle Up Forward",
     input: [896],
     type: "special",
     regex: /896/,
