@@ -199,54 +199,150 @@ const sol_badguy = [
     moreName: "Dustloop",
     },
 {
-      name: "Bandit Revolver",
-      input: "236KK",
-      type: "move",
-      regex: /\bbr|BR|236kk|236KK\b/i,
-      description:
-          "Full Bandit Revolver",
-          img: (
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-              <QuarterCircle style={{ width: '32px', height: '32px' }} />
-              <Kick style={{ width: '32px', height: '32px' }} />
-              <Kick style={{ width: '32px', height: '32px' }} />
-            </div>
-          ),
-      moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Bandit_Revolver",
-      moreName: "Dustloop",
-      },
+    name: "Bandit Revolver",
+    input: "236KK",
+    type: "move",
+    regex: /\bbr|BR|236kk|236KK\b/i,
+    description:
+        "Full Bandit Revolver",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <QuarterCircle style={{ width: '32px', height: '32px' }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Bandit_Revolver",
+    moreName: "Dustloop",
+    },
 {
-        name: "Gun Flame",
-        input: "236P",
-        type: "move",
-        regex: /\bgf|GF|236p|236P\b/i,
-        description:
-            "Gun Flame",
-            img: (
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <QuarterCircle style={{ width: '32px', height: '32px' }} />
-                <Punch style={{ width: '32px', height: '32px' }} />
-              </div>
-            ),
-        moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Gun_Flame",
-        moreName: "Dustloop",
-        },
+    name: "Gun Flame",
+    input: "236P",
+    type: "move",
+    regex: /\bgf|GF|236p|236P\b/i,
+    description:
+        "Gun Flame",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <QuarterCircle style={{ width: '32px', height: '32px' }} />
+            <Punch style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Gun_Flame",
+    moreName: "Dustloop",
+    },
 {
-          name: "Gun Flame (Feint)",
-          input: "214P",
-          type: "move",
-          regex: /\bgff|GFF|214p|214P\b/i,
-          description:
-              "Gun Flame (Feint)",
-              img: (
-                <div style={{ display: 'flex', alignItems: 'center' }}>
-                  <QuarterCircle style={{ width: '32px', height: '32px' }} />
-                  <Kick style={{ width: '32px', height: '32px' }} />
-                  <Kick style={{ width: '32px', height: '32px' }} />
-                </div>
-              ),
-          moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Gun_Flame_(Feint)",
-          moreName: "Dustloop",
-          },     
-];
+    name: "Gun Flame (Feint)",
+    input: "214P",
+    type: "move",
+    regex: /\bgff|GFF|214p|214P\b/i,
+    description:
+        "Gun Flame (Feint)",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <QuarterCircle style={{ width: '32px', height: '32px' }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Gun_Flame_(Feint)",
+    moreName: "Dustloop",
+    }, 
+{
+    name: "Volcanic Viper",
+    input: "623S",
+    type: "move",
+    regex: /\bvv|VV|623S|623s\b/i,
+    description:
+        "Volcanic Viper",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px' }} />
+            <Slash style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Volcanic_Viper",
+    moreName: "Dustloop",
+    },        
+{
+    name: "Heavy Volcanic Viper",
+    input: "623H",
+    type: "move",
+    regex: /\bhvv|HVV|623H|623h\b/i,
+    description:
+        "Heavy Volcanic Viper",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px' }} />
+            <HeavySlash style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Volcanic_Viper",
+    moreName: "Dustloop",
+},
+  {
+    name: "Bandit Bringer",
+    input: "214K",
+    type: "move",
+    regex: /\bbb|BB|214k|214K\b/i,
+    description:
+        "Bandit Bringer",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px', transform: "scaleX(-1)" }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Bandit_Bringer",
+    moreName: "Dustloop",
+    },     
+{
+    name: "Wild Throw",
+    input: "623K",
+    type: "move",
+    regex: /\bwt|WT|623K|623k\b/i,
+    description:
+        "Wild Throw",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px' }} />
+            <Kick style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Wild_Throw",
+    moreName: "Dustloop",
+    },     
+{
+      name: "Night Raid Vortex",
+    input: "214S",
+    type: "move",
+    regex: /\bnrv|NRV|214S|214s\b/i,
+    description:
+        "Night Raid Vortex",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px', transform: "scaleX(-1)" }} />
+            <Slash style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Night_Raid_Vortex",
+    moreName: "Dustloop",
+},     
+{
+      name: "Night Raid Vortex",
+    input: "214S",
+    type: "move",
+    regex: /\bnrv|NRV|214S|214s\b/i,
+    description:
+        "Night Raid Vortex",
+        img: (
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <DragonPunch style={{ width: '32px', height: '32px', transform: "scaleX(-1)" }} />
+            <Slash style={{ width: '32px', height: '32px' }} />
+          </div>
+        ),
+    moreLink: "https://www.dustloop.com/w/GGST/Sol_Badguy#Night_Raid_Vortex",
+    moreName: "Dustloop",
+},      
+  ];
 export { sol_badguy};
